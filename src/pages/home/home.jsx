@@ -1,8 +1,8 @@
 import React from 'react';
 import "./home.css";
-import Header from "../../header/header.jsx";
-import Posts from "../../posts/posts";
-import Sidebar from "../../sidebar/sidebar";
+import Header from "../../components/header/header.jsx";
+import Posts from "../../components/posts/posts";
+import Sidebar from "../../components/sidebar/sidebar";
 
 export default function Home() {
   return (
