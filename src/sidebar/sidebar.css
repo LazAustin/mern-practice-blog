@@ -8,10 +8,6 @@
     flex-direction: column;
 }
 
-.sidebarImg {
-    object-fit: contain;
-}
-
 .sidebarItem{
     display: flex;
     flex-direction: column;
@@ -32,6 +28,12 @@
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
 .sidebarItem > img {
     margin-top: 15px;
 }
@@ -47,4 +49,21 @@
 
 .sidebarListItem{
     display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.sidebarSocial{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarIcon{
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
 }

@@ -6,11 +6,15 @@ export default function Sidebar() {
     <div className='sidebar'>
         <div className='sidebarItem'>
           <span className='sidebarTitle'>About Me</span>
-          <img className='sidebarImg' src={require('../navbar/WebsitePic.jpg')} alt=""/>
+          
+            <img className='sidebarImg' src={require('../navbar/WebsitePic.jpg')} alt=""/>
+          
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minus quibusdam maiores unde veritatis ratione illo quos non.
           </p>
+
         </div>
+
         <div className='sidebarItem'>
           <span className='sidebarTitle'>Categories</span>
           <ul className='sidebarList'>
